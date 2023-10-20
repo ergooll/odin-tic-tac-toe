@@ -1,6 +1,6 @@
 :root {
     --bg-color: #424242;
-    --text-color: #cecece;
+    --text-color: #dbdbdb;
     --accent-color: #7134d3;
     font-family: 'Quicksand', sans-serif;
 }
@@ -12,6 +12,11 @@ body {
     background-color: var(--bg-color);
 }
 
+header {
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Macondo', cursive;
+}
 
 /* Footer section */
 
