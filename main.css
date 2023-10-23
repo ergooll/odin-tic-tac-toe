@@ -29,16 +29,18 @@ header {
     font-size: 2.5rem;
 }
 
-.game-square {
+.square {
     margin: 0;
     width: 128px;
     height: 128px;
-    text-align: center;
     border: 1px solid white;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.game-square:hover {
+.square:hover {
     background-color: var(--accent-color);
     transition: 0.3s;
     cursor: pointer;
@@ -73,6 +75,14 @@ header {
 .player-info button:hover {
     cursor: pointer;
     background-color: #5929a7;
+}
+
+.game-message {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 /* Footer section */
