@@ -131,3 +131,5 @@ const gameInfo = document.querySelector('.game-info');
 startButton.addEventListener('click', () => {
     Game.start();
 })
+
+Gameboard.render();
