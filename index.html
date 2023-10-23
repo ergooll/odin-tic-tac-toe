@@ -20,23 +20,14 @@
     </header>
 
     <main>
-        <div class="gameboard">
-            <div id="square1" class="game-square"><p>X</p></div>
-            <div id="square2" class="game-square"><p>O</p></div>
-            <div id="square3" class="game-square"><p>X</p></div>
-            <div id="square4" class="game-square"><p>X</p></div>
-            <div id="square5" class="game-square"><p>O</p></div>
-            <div id="square6" class="game-square"><p>X</p></div>
-            <div id="square7" class="game-square"><p>O</p></div>
-            <div id="square8" class="game-square"><p>X</p></div>
-            <div id="square9" class="game-square"><p>O</p></div>
-        </div>
+        <div class="gameboard"></div>
         <div class="player-info">
-            <input type="text" placeholder="Player 1">
-            <input type="text" placeholder="Player 2">
+            <input type="text" id="player1" placeholder="Player 1">
+            <input type="text" id="player2" placeholder="Player 2">
             <button id="start-button">Start</button>
+            <button id="restart-button">Restart</button>
         </div>
-        <div class="game-info"></div>
+        <div class="game-message"></div>
     </main>
 
     <footer>
